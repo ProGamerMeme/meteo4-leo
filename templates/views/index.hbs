@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/img/weather.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <div class="main-content">
+        {{>header}}
+
+        <p>Usa questo sito per prendere il tempo</p>
+
+        <form>
+            <input placeholder="Location" type="text">
+            <button>Cerca</button>
+        </form>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+    </div>
+    
+    {{>footer}}
+    <script src="/js/app.js"></script>
+</body>
+</html>
